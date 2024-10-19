@@ -1,0 +1,30 @@
+#ifndef DBTESTGRILA_H
+#define DBTESTGRILA_H
+
+#include "struct_questions.h"
+
+#include <QList>
+#include <QSqlDatabase>
+#include <QString>
+#include <QTableView>
+
+using namespace std;
+
+class DBTestGrila
+{
+public:
+    DBTestGrila();
+
+    void createTable();
+    void dropTable();
+    void insertInto(int punctaj, vector<questionBlock>& questions, QString name, QList<QList<QString> > selectedAnswers);
+    void viewTable_testGrila(QTableView *tableView);
+    void viewTable_score(QTableView *tableView);
+    void convertListInString();
+
+private:
+    QSqlDatabase db;
+    QTableView tableView;
+};
+
+#endif // DBTESTGRILA_H

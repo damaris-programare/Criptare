@@ -1,0 +1,47 @@
+#include "dbtestgrila.h"
+#include "struct_questions.h"
+
+#include <QtSql/QSqlDatabase>
+#include <QSqlQuery>
+#include <QDebug>
+
+DBTestGrila::DBTestGrila()
+{
+    QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
+    db.setDatabaseName("mydatabase.db");
+    if(!db.open()){
+        qDebug() << "Eroare la deschiderea bazei de date!";
+    }
+}
+
+void DBTestGrila::createTable()
+{
+    QSqlQuery qry;
+    qry.exec("create table testGrila("
+             "id integer primary key,"
+             "username varchar(20),"
+             "Question varchar(100),"
+             "Answer1 varchar(100),"
+             "Answer2 varchar(100),"
+             "Answer3 varchar(100),"
+             "Answer4 varchar(100),"
+             "AnswerCorrect varchar(100),"
+             "AnswerSelected varchar(100)");
+}
+
+void DBTestGrila::insertInto()
+{
+    QSqlQuery qry;
+    qry.prepare("Insert into testGrila (id, username, Question, Answer1, Answer2, Answer3, Answer4, AnswerCorrect, AnswerSelected)"
+                "values (:id, :username, :Question, :Answer1, :Answer2, :Answer3, :Answer4, :AnswerCorrect, :AnswerSelected)");
+    qry.bindValue(":id", id);
+    qry.bindValue(":username", lineEdit->text());
+    qry.bindValue(":Question", q.q1);
+    qry.bindValue(":Answer1", q.r1);
+    qry.bindValue(":Answer2", q.r2);
+    qry.bindValue(":Answer3", q.r3);
+    qry.bindValue(":Answer4", q.r4);
+    qry.bindValue(":AnswerCorrect", q.r_corect);
+    qry.bindValue(":AnswerSelected", answerSelected);
+}
+

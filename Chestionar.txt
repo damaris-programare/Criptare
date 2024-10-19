@@ -1,0 +1,60 @@
+Care sunt cele doua parti ale calculatorului?
+hardware si software
+hardware si medii de stocare
+software si dispozitive periferice
+nici una din variantele de mai sus
+Raspuns corect: hardware si software
+Ce reprezinta Hardware - ul?
+componentele fizice ale calculatorului
+partea logica (programele cu care functioneaza calculatorul)
+componentele fizice si partea logica
+nici una din variantele de mai sus
+Raspuns corect: componentele fizice ale calculatorului
+Ce reprezinta Software - ul?
+componentele fizice ale calculatorului
+partea logica (programele cu care functioneaza calculatorul)
+componentele fizice si partea logica
+nici una din variantele de mai sus
+Raspuns corect: partea logica (programele cu care functioneaza calculatorul)
+Ce tip de componenta este uniatatea centrala?
+hardware
+software
+principala
+nici una din variantele de mai sus
+Raspuns corect: hardware
+Unde este montata unitatea de memorie?
+pe placa video
+pe placa de sunet
+pe placa de baza
+nici una din variantele de mai sus
+Raspuns corect: pe placa de baza
+Ce realizeaza modem-ul?
+comunicarea intre doua calculatoare aflate la distanta
+comunicarea intre doua componente ale calculatorului
+modem-ul este un router
+nici una din variantele de mai sus
+Raspuns corect: comunicarea intre doua calculatoare aflate la distanta
+Ce tip de dispozitiv este imprimanta?
+de intrare
+de intrare/iesire
+de iesire
+nici una din variantele de mai sus
+Raspuns corect: de iesire
+Ce este desktop - ul?
+ceea ce se vede pe monitor atunci cand calculatorul a incarcat SO
+obiectul de mobila pe care este asezata tastatura
+un joc pe calculator
+nici una din variantele de mai sus
+Raspuns corect: ceea ce se vede pe monitor atunci cand calculatorul a incarcat SO
+Ce fel de dispozitiv este tastaura?
+de iesire
+de intrare/iesire
+de intrare
+nici una din variantele de mai sus
+Raspuns corect: de intrare
+Cum se clasifica memoria interna?
+memorie ROM si memorie RAM
+temporara si permanenta
+spatiu si timp
+nici una din variantele de mai sus
+Raspuns corect: memorie ROM si memorie RAM
